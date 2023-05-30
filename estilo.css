@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 50px;
+}
+
+.a link{
+    text-decoration: none;
+}
+
+.header{
+    background-color: rgb(178, 221, 178);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.logo-hortinha-amiga{
+    height: 80px;
+}
+
+.darkmode{
+    background-color: #11b200;
+    border: #11b200;
+    display: flex;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    color: white;
+}
+
+.darkmode:hover{
+    background-color: #8e3209;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: #119103;
+    padding: 1%;
+    text-align: center;
+}
+
+.menu-item{
+    padding: 3%;
+    margin: 5%;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: 'Delicious Handrawn', cursive;
+    color: white;
+    font-size: 25px;
+}
+
+.menu-item:hover{
+    color:#8e3209;
+}
+
+#slide-home{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(175, 44, 44);
+}
+
+.home-titulo{
+    margin: 1%;
+    text-align: center;
+    color:#11b200;
+}
+
+.container-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-item{
+    background-color: tomato;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+}
