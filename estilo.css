@@ -30,10 +30,10 @@ footer{
 
 a{
     text-decoration: none;
-    color: blue;
+    color:#119103;
 }
 
-
+/* Parte superior */
 
 .header{
     background-color: rgb(178, 221, 178);
@@ -95,7 +95,7 @@ a{
 }
 
 .titulo{
-    margin: 1%;
+    margin: 2%;
     text-align: center;
     color:#11b200;
 }
@@ -168,4 +168,83 @@ a{
 .fotos-desktops{
     width: 90%;
     border-radius: 5%;
+}
+
+/* Contato */
+.contato{
+    width:21%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+}
+
+.titulo-contato{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#8e3209;
+    margin-top: 20px;
+}
+
+.fale-conosco{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.campo-formulario{
+    background-color: rgb(178, 221, 178);
+    border:none;
+    padding: 3%;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.botao-enviar{
+    background-color: #119103;
+    width: 30%;
+    margin-top: 3%;
+    padding: 5%;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.botao-enviar:hover{
+    background-color: #8e3209;
+    width: 30%;
+    margin-top: 3%;
+    padding: 5%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Login */
+
+.login-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+}
+
+.login{
+    width: 30%;
+    margin-bottom: 3%;
+}
+
+.login-ajude{
+    width: 30%;
+    padding-top: 5%;
+    text-align: center;
+    color:#119103;
+}
+
+.login-icone{
+    margin-top: 2%;
+    width: 50%;
+    height: 52%;
 }
