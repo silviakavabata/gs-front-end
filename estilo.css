@@ -248,3 +248,24 @@ a{
     width: 50%;
     height: 52%;
 }
+
+/* Como cuidar da sua horta */
+
+.texto-horta{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+}
+
+.texto-horta-caixa{
+    background-color: #daa188;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    padding: 3%;
+}
+
+.horta-imagem1{
+    float: right;
+    margin-left: 3%;
+}
