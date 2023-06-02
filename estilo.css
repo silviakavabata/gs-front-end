@@ -10,6 +10,11 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
 h3{
     font-family: 'Delicious Handrawn', cursive;
     font-size: 30px;
@@ -250,7 +255,6 @@ a{
 }
 
 /* Como cuidar da sua horta */
-
 .texto-horta{
     margin-left: 15%;
     margin-right: 15%;
@@ -268,4 +272,68 @@ a{
 .horta-imagem1{
     float: right;
     margin-left: 3%;
+}
+
+/* Página morador */
+.morador-imagem1{
+    width: 30%;
+    float: right;
+    border-radius: 5%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.texto-morador{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.saldo{
+    background-color: rgb(178, 221, 178);
+    text-align: center;
+    width: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    color:#8e3209;
+    border-radius: 5%;
+}
+
+.produtos-proximos{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    color:#119103;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.fotos-produto{
+    width: 60%;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+
+.nome-produto{
+    font-weight: bold;
+}
+
+/* Página escola */
+.sensores-info{
+    margin-bottom: 2%;
+    text-align: center;
+    color:#8e3209;
 }
