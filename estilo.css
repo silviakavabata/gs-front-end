@@ -190,7 +190,7 @@ a{
 }
 
 .campo-formulario{
-    background-color: rgb(178, 221, 178);
+    background-color: #11b200;
     border:none;
     padding: 3%;
     margin-top: 3%;
@@ -238,7 +238,7 @@ a{
     width: 30%;
     padding-top: 5%;
     text-align: center;
-    color:#119103;
+    color:#000000;
 }
 
 .login-icone{
