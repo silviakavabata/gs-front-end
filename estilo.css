@@ -241,9 +241,9 @@ a{
 }
 
 .login-icone{
-    margin-top: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 50%;
-    height: 52%;
 }
 
 /* Como cuidar da sua horta */
