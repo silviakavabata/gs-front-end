@@ -318,7 +318,8 @@ a{
 }
 
 .fotos-produto{
-    width: 60%;
+    width: 80%;
+    height: 80%;
     border-radius: 5%;
     margin-bottom: 2%;
 }
