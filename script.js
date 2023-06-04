@@ -27,9 +27,9 @@ atualizarDataHora();
 setInterval(atualizarDataHora, 1000);
 
 var imagens=[
-  'Imagens/enricco.jpg',
-  'Imagens/silvia.jpg',
-  'Imagens/gabriel.jpg',
+  'Imagens/slide-1.jpg',
+  'Imagens/slide-2.jpg',
+  'Imagens/slide-3.jpg',
 ];
 let Index=0;
 let time =2500;
