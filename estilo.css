@@ -332,13 +332,14 @@ a{
 }
 
 /* Página escola */
-.sensores-info{
-    margin-bottom: 2%;
-    text-align: center;
-    color:#8e3209;
-}
 
 #data-hora{
     float: right;
     margin-top: 5px;
+}
+
+.horta-imagem-escola{
+    margin-right: 3%;
+    width: 20%;
+    border-radius: 10%;
 }
